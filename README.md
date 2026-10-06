@@ -44,7 +44,7 @@
 需要：JDK 17、Android SDK（含 API 35 平台）、Gradle 8.9+。
 
 ```bash
-git clone https://github.com/<you>/einklab-android.git
+git clone https://github.com/malongxlv-cmyk/p.git
 cd einklab-android
 gradle assembleDebug
 # APK 输出：app/build/outputs/apk/debug/app-debug.apk
@@ -138,7 +138,7 @@ Wallpaper Lab details:
 Requirements: JDK 17, Android SDK (API 35 platform), Gradle 8.9+.
 
 ```bash
-git clone https://github.com/<you>/einklab-android.git
+git clone https://github.com/malongxlv-cmyk/p.git
 cd einklab-android
 gradle assembleDebug
 # APK: app/build/outputs/apk/debug/app-debug.apk

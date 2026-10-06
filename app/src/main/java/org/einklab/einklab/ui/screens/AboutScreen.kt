@@ -50,7 +50,7 @@ fun AboutScreen(modifier: Modifier = Modifier) {
                 color = MaterialTheme.colorScheme.primary,
             )
             TextButton(
-                onClick = { uriHandler.openUri("https://github.com/<you>/einklab-android") },
+                onClick = { uriHandler.openUri("https://github.com/malongxlv-cmyk/p") },
             ) {
                 Text(
                     text = stringResource(R.string.about_source),
