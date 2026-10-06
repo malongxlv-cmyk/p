@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认语言：简体中文 -->
+<resources>
+    <string name="app_name">墨屏实验室</string>
+    <string name="app_name_en">EinkLab</string>
+    <string name="nav_back">返回</string>
+
+    <!-- 主界面 -->
+    <string name="home_subtitle">给墨水屏安卓设备的小工具箱</string>
+    <string name="card_wallpaper_title">壁纸工坊</string>
+    <string name="card_wallpaper_desc">相册选图 → 灰阶抖动 → 墨水屏壁纸</string>
+    <string name="card_refresh_title">清残影</string>
+    <string name="card_refresh_desc">全屏黑白闪烁，清除墨水屏残影</string>
+    <string name="card_about_title">关于</string>
+    <string name="card_about_desc">开源声明、版本与无商业关联说明</string>
+
+    <!-- 壁纸工坊 -->
+    <string name="wallpaper_pick">选择图片</string>
+    <string name="wallpaper_change">重新选择</string>
+    <string name="wallpaper_picked">已选择图片，点击「生成预览」开始处理</string>
+    <string name="target_resolution">目标分辨率</string>
+    <string name="target_native">本机屏幕（%1$d × %2$d）</string>
+    <string name="target_palma">BOOX Palma（824 × 1648）</string>
+    <string name="target_custom">手动输入</string>
+    <string name="custom_width">宽（像素）</string>
+    <string name="custom_height">高（像素）</string>
+    <string name="dither_algorithm">抖动算法</string>
+    <string name="algo_floyd">Floyd–Steinberg · 平滑</string>
+    <string name="algo_atkinson">Atkinson · 高对比</string>
+    <string name="algo_bayer">Bayer 4×4 · 有序</string>
+    <string name="algo_threshold">简单阈值</string>
+    <string name="gray_levels">灰阶</string>
+    <string name="scale_mode">缩放方式</string>
+    <string name="scale_crop">居中裁切填满</string>
+    <string name="scale_fit">完整显示留白</string>
+    <string name="generate">生成预览</string>
+    <string name="generating">处理中…</string>
+    <string name="preview">预览</string>
+    <string name="save_gallery">保存到相册</string>
+    <string name="set_wallpaper">设为系统壁纸</string>
+    <string name="saved_ok">已保存到相册（Pictures/EinkLab）</string>
+    <string name="saved_fail">保存失败，请重试</string>
+    <string name="wallpaper_ok">壁纸已设置</string>
+    <string name="wallpaper_fail">设置壁纸失败，请重试</string>
+    <string name="pick_first">请先选择一张图片</string>
+    <string name="size_invalid">分辨率无效，请输入 1–8000 的整数</string>
+    <string name="process_fail">图片处理失败，请换一张图重试</string>
+    <string name="permission_need">需要读取图片权限才能继续</string>
+
+    <!-- 清残影 -->
+    <string name="refresh_desc">全屏黑白交替闪烁，帮助墨水屏清除残影（ghosting）。闪烁期间请勿长时间直视屏幕。</string>
+    <string name="refresh_count">闪烁次数：%1$d</string>
+    <string name="refresh_start">开始闪烁</string>
+    <string name="refresh_running">正在闪烁…点击屏幕任意处停止</string>
+
+    <!-- 关于 -->
+    <string name="about_intro">EinkLab（墨屏实验室）v0.1.0\n给墨水屏安卓设备用的开源小工具。\nKotlin + Jetpack Compose + Material3 构建。</string>
+    <string name="about_no_relation_title">无商业关联声明</string>
+    <string name="about_no_relation">本项目为独立开源项目，与文石（BOOX）、亚马逊（Kindle）、乐天（Kobo）、Bigme 等任何厂商均无任何商业关系：不隶属、不代言、无合作、无赞助。</string>
+    <string name="about_privacy_title">隐私承诺</string>
+    <string name="about_privacy">无广告、无统计、无追踪，不含任何第三方 SDK。所有图片处理均在本地完成，不上传、不外传任何数据。</string>
+    <string name="about_source_title">源代码</string>
+    <string name="about_source">https://github.com/&lt;you&gt;/einklab-android</string>
+    <string name="about_license_title">许可证</string>
+    <string name="about_license">MIT License\nCopyright (c) 2026 EinkLab contributors</string>
+</resources>

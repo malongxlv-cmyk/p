@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English -->
+<resources>
+    <string name="app_name">EinkLab</string>
+    <string name="app_name_en">EinkLab</string>
+    <string name="nav_back">Back</string>
+
+    <string name="home_subtitle">A tiny toolbox for e-ink Android devices</string>
+    <string name="card_wallpaper_title">Wallpaper Lab</string>
+    <string name="card_wallpaper_desc">Pick a photo → grayscale dithering → e-ink wallpaper</string>
+    <string name="card_refresh_title">De-ghost</string>
+    <string name="card_refresh_desc">Full-screen black/white flashing to clear ghosting</string>
+    <string name="card_about_title">About</string>
+    <string name="card_about_desc">Open-source notice, version &amp; affiliation statement</string>
+
+    <string name="wallpaper_pick">Pick an image</string>
+    <string name="wallpaper_change">Choose another</string>
+    <string name="wallpaper_picked">Image selected — tap “Generate preview” to process</string>
+    <string name="target_resolution">Target resolution</string>
+    <string name="target_native">This device (%1$d × %2$d)</string>
+    <string name="target_palma">BOOX Palma (824 × 1648)</string>
+    <string name="target_custom">Custom size</string>
+    <string name="custom_width">Width (px)</string>
+    <string name="custom_height">Height (px)</string>
+    <string name="dither_algorithm">Dithering</string>
+    <string name="algo_floyd">Floyd–Steinberg · smooth</string>
+    <string name="algo_atkinson">Atkinson · punchy</string>
+    <string name="algo_bayer">Bayer 4×4 · ordered</string>
+    <string name="algo_threshold">Plain threshold</string>
+    <string name="gray_levels">Gray levels</string>
+    <string name="scale_mode">Scaling</string>
+    <string name="scale_crop">Center-crop fill</string>
+    <string name="scale_fit">Fit with padding</string>
+    <string name="generate">Generate preview</string>
+    <string name="generating">Processing…</string>
+    <string name="preview">Preview</string>
+    <string name="save_gallery">Save to gallery</string>
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="saved_ok">Saved to gallery (Pictures/EinkLab)</string>
+    <string name="saved_fail">Save failed, please retry</string>
+    <string name="wallpaper_ok">Wallpaper set</string>
+    <string name="wallpaper_fail">Failed to set wallpaper, please retry</string>
+    <string name="pick_first">Please pick an image first</string>
+    <string name="size_invalid">Invalid size — enter integers between 1 and 8000</string>
+    <string name="process_fail">Image processing failed, try another image</string>
+    <string name="permission_need">Storage permission is needed to continue</string>
+
+    <string name="refresh_desc">Flashes black and white full-screen to help clear e-ink ghosting. Avoid staring at the screen for too long while flashing.</string>
+    <string name="refresh_count">Flashes: %1$d</string>
+    <string name="refresh_start">Start flashing</string>
+    <string name="refresh_running">Flashing… tap anywhere to stop</string>
+
+    <string name="about_intro">EinkLab v0.1.0\nOpen-source tools for e-ink Android devices.\nBuilt with Kotlin + Jetpack Compose + Material3.</string>
+    <string name="about_no_relation_title">No commercial affiliation</string>
+    <string name="about_no_relation">This is an independent open-source project with no commercial relationship — no ownership, endorsement, partnership or sponsorship — with BOOX, Amazon (Kindle), Rakuten (Kobo), Bigme or any other vendor.</string>
+    <string name="about_privacy_title">Privacy promise</string>
+    <string name="about_privacy">No ads, no analytics, no tracking, no third-party SDKs. All image processing happens on-device; nothing is uploaded or shared.</string>
+    <string name="about_source_title">Source code</string>
+    <string name="about_source">https://github.com/&lt;you&gt;/einklab-android</string>
+    <string name="about_license_title">License</string>
+    <string name="about_license">MIT License\nCopyright (c) 2026 EinkLab contributors</string>
+</resources>
