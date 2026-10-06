@@ -1,8 +1,8 @@
 package org.einklab.einklab.imaging
 
 import android.app.Activity
-import android.graphics.DisplayMetrics
 import android.os.Build
+import android.util.DisplayMetrics
 
 /**
  * 目标分辨率预设。
