@@ -12,6 +12,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -62,6 +63,7 @@ private enum class TargetChoice { NATIVE, PALMA, CUSTOM }
  * 图片解码只用系统 ImageDecoder，抖动算法为纯 Kotlin 实现，
  * 全程本地处理，不上传任何数据。
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun WallpaperScreen(modifier: Modifier = Modifier) {
     val context = LocalContext.current
